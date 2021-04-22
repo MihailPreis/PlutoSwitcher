@@ -1,0 +1,395 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8513134E26314F750004FEC4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8513134D26314F750004FEC4 /* AppDelegate.swift */; };
+		8513135226314F770004FEC4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8513135126314F770004FEC4 /* Assets.xcassets */; };
+		8513135826314F770004FEC4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8513135626314F770004FEC4 /* Main.storyboard */; };
+		85131362263158580004FEC4 /* SwitcherManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85131361263158580004FEC4 /* SwitcherManager.swift */; };
+		8513137026319E220004FEC4 /* SettingsHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8513136F26319E220004FEC4 /* SettingsHelper.swift */; };
+		85BBB3162631A17000385ED1 /* String+Spelling+Language.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85BBB3152631A17000385ED1 /* String+Spelling+Language.swift */; };
+		85BBB3192631A1A200385ED1 /* Local+Raw.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85BBB3182631A1A200385ED1 /* Local+Raw.swift */; };
+		85BBB31C2631A1CC00385ED1 /* CGEvent+Keуboard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85BBB31B2631A1CC00385ED1 /* CGEvent+Keуboard.swift */; };
+		85BBB31F2631A27B00385ED1 /* Int+Repeat.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85BBB31E2631A27B00385ED1 /* Int+Repeat.swift */; };
+		85BBB3252631A53200385ED1 /* NSEvent+Flags.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85BBB3242631A53200385ED1 /* NSEvent+Flags.swift */; };
+		85CA3FF02631ADF200563D2B /* NSApplication+ViewModal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85CA3FEF2631ADF200563D2B /* NSApplication+ViewModal.swift */; };
+		85CA3FF42631B45100563D2B /* NSMenuItem+Toggle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85CA3FF32631B45100563D2B /* NSMenuItem+Toggle.swift */; };
+		85CA3FF92631B5F200563D2B /* OnboardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85CA3FF82631B5F200563D2B /* OnboardView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		8513134A26314F750004FEC4 /* PlutoSwitcher.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PlutoSwitcher.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8513134D26314F750004FEC4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		8513135126314F770004FEC4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8513135726314F770004FEC4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8513135926314F770004FEC4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8513135A26314F770004FEC4 /* PlutoSwitcher.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = PlutoSwitcher.entitlements; sourceTree = "<group>"; };
+		85131361263158580004FEC4 /* SwitcherManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwitcherManager.swift; sourceTree = "<group>"; };
+		8513136F26319E220004FEC4 /* SettingsHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsHelper.swift; sourceTree = "<group>"; };
+		85BBB3152631A17000385ED1 /* String+Spelling+Language.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+Spelling+Language.swift"; sourceTree = "<group>"; };
+		85BBB3182631A1A200385ED1 /* Local+Raw.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Local+Raw.swift"; sourceTree = "<group>"; };
+		85BBB31B2631A1CC00385ED1 /* CGEvent+Keуboard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CGEvent+Keуboard.swift"; sourceTree = "<group>"; };
+		85BBB31E2631A27B00385ED1 /* Int+Repeat.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Int+Repeat.swift"; sourceTree = "<group>"; };
+		85BBB3242631A53200385ED1 /* NSEvent+Flags.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "NSEvent+Flags.swift"; sourceTree = "<group>"; };
+		85CA3FEF2631ADF200563D2B /* NSApplication+ViewModal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "NSApplication+ViewModal.swift"; sourceTree = "<group>"; };
+		85CA3FF32631B45100563D2B /* NSMenuItem+Toggle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "NSMenuItem+Toggle.swift"; sourceTree = "<group>"; };
+		85CA3FF82631B5F200563D2B /* OnboardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8513134726314F750004FEC4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8513134126314F750004FEC4 = {
+			isa = PBXGroup;
+			children = (
+				8513134C26314F750004FEC4 /* Source */,
+				8513134B26314F750004FEC4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8513134B26314F750004FEC4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8513134A26314F750004FEC4 /* PlutoSwitcher.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8513134C26314F750004FEC4 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				85BBB3142631A14E00385ED1 /* Extension */,
+				8513137226319E430004FEC4 /* View */,
+				8513134D26314F750004FEC4 /* AppDelegate.swift */,
+				85131361263158580004FEC4 /* SwitcherManager.swift */,
+				8513136F26319E220004FEC4 /* SettingsHelper.swift */,
+				8513137326319E4D0004FEC4 /* Resources */,
+			);
+			path = Source;
+			sourceTree = "<group>";
+		};
+		8513137226319E430004FEC4 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				85CA3FF82631B5F200563D2B /* OnboardView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		8513137326319E4D0004FEC4 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				8513135126314F770004FEC4 /* Assets.xcassets */,
+				8513135626314F770004FEC4 /* Main.storyboard */,
+				8513135926314F770004FEC4 /* Info.plist */,
+				8513135A26314F770004FEC4 /* PlutoSwitcher.entitlements */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		85BBB3142631A14E00385ED1 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				85BBB3152631A17000385ED1 /* String+Spelling+Language.swift */,
+				85BBB3182631A1A200385ED1 /* Local+Raw.swift */,
+				85BBB31B2631A1CC00385ED1 /* CGEvent+Keуboard.swift */,
+				85BBB3242631A53200385ED1 /* NSEvent+Flags.swift */,
+				85BBB31E2631A27B00385ED1 /* Int+Repeat.swift */,
+				85CA3FEF2631ADF200563D2B /* NSApplication+ViewModal.swift */,
+				85CA3FF32631B45100563D2B /* NSMenuItem+Toggle.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8513134926314F750004FEC4 /* PlutoSwitcher */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8513135D26314F770004FEC4 /* Build configuration list for PBXNativeTarget "PlutoSwitcher" */;
+			buildPhases = (
+				8513134626314F750004FEC4 /* Sources */,
+				8513134726314F750004FEC4 /* Frameworks */,
+				8513134826314F750004FEC4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PlutoSwitcher;
+			productName = PlutoSwitcher;
+			productReference = 8513134A26314F750004FEC4 /* PlutoSwitcher.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8513134226314F750004FEC4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+				TargetAttributes = {
+					8513134926314F750004FEC4 = {
+						CreatedOnToolsVersion = 12.4;
+					};
+				};
+			};
+			buildConfigurationList = 8513134526314F750004FEC4 /* Build configuration list for PBXProject "PlutoSwitcher" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8513134126314F750004FEC4;
+			productRefGroup = 8513134B26314F750004FEC4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8513134926314F750004FEC4 /* PlutoSwitcher */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8513134826314F750004FEC4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8513135826314F770004FEC4 /* Main.storyboard in Resources */,
+				8513135226314F770004FEC4 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8513134626314F750004FEC4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				85BBB31F2631A27B00385ED1 /* Int+Repeat.swift in Sources */,
+				85BBB3252631A53200385ED1 /* NSEvent+Flags.swift in Sources */,
+				85BBB3192631A1A200385ED1 /* Local+Raw.swift in Sources */,
+				85CA3FF42631B45100563D2B /* NSMenuItem+Toggle.swift in Sources */,
+				85CA3FF92631B5F200563D2B /* OnboardView.swift in Sources */,
+				8513137026319E220004FEC4 /* SettingsHelper.swift in Sources */,
+				85BBB31C2631A1CC00385ED1 /* CGEvent+Keуboard.swift in Sources */,
+				85CA3FF02631ADF200563D2B /* NSApplication+ViewModal.swift in Sources */,
+				85131362263158580004FEC4 /* SwitcherManager.swift in Sources */,
+				8513134E26314F750004FEC4 /* AppDelegate.swift in Sources */,
+				85BBB3162631A17000385ED1 /* String+Spelling+Language.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		8513135626314F770004FEC4 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8513135726314F770004FEC4 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8513135B26314F770004FEC4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		8513135C26314F770004FEC4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		8513135E26314F770004FEC4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Source/Resources/PlutoSwitcher.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = Source/Resources/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				PRODUCT_BUNDLE_IDENTIFIER = com.mprice.PlutoSwitcher;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		8513135F26314F770004FEC4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Source/Resources/PlutoSwitcher.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = Source/Resources/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				PRODUCT_BUNDLE_IDENTIFIER = com.mprice.PlutoSwitcher;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8513134526314F750004FEC4 /* Build configuration list for PBXProject "PlutoSwitcher" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8513135B26314F770004FEC4 /* Debug */,
+				8513135C26314F770004FEC4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8513135D26314F770004FEC4 /* Build configuration list for PBXNativeTarget "PlutoSwitcher" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8513135E26314F770004FEC4 /* Debug */,
+				8513135F26314F770004FEC4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8513134226314F750004FEC4 /* Project object */;
+}
